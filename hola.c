@@ -1,11 +1,13 @@
 #include <stdio.h>
 
+#include "hola.h"
+
 int sumar(int a, int b) {
     return a + b;
 }
 
 int main(void) {
-    printf("Hola mundo\n");
+    printf("%s\n", MENSAJE);
 
     printf("%d\n", sumar(5, 6));
 
